@@ -6,6 +6,8 @@ const error = document.getElementById("error");
 
 const usersContainer = document.getElementById("usersContainer");
 
+const mamad = 20;
+
 
 loadBtn.addEventListener("click", getUsers);
 
