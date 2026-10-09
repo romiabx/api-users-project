@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API Users</title>
+
+    <link rel="stylesheet" href="poo.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>لیست کاربران</h1>
+
+        <p class="description">
+            دریافت اطلاعات کاربران از API
+        </p>
+
+        <button id="loadBtn">
+            دریافت کاربران
+        </button>
+
+        <!-- Loading -->
+        <div id="loading" class="loading">
+            در حال دریافت اطلاعات...
+        </div>
+
+        <!-- Error -->
+        <div id="error" class="error"></div>
+
+        <!-- Users -->
+        <div id="usersContainer" class="users-container"></div>
+
+    </div>
+
+    <script src="pop.js"></script>
+
+</body>
+
+</html>
